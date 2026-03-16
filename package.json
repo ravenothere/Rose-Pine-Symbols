@@ -1,0 +1,57 @@
+{
+  "name": "rose-pine-symbols",
+  "displayName": "Rosé Pine Symbols",
+  "description": "A file icon theme for VS Code using the Rosé Pine palette, combining Symbols' file type coverage with Rosé Pine's folder style.",
+  "version": "1.0.0",
+  "publisher": "ravenothere",
+  "author": {
+    "name": "ravenothere"
+  },
+  "preview": true,
+  "license": "MIT",
+  "icon": "logo.png",
+  "main": "./src/extension.js",
+  "type": "commonjs",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": ["Themes"],
+  "keywords": ["rose-pine", "icon-theme", "file-icons", "symbols", "rosé pine"],
+  "extensionKind": ["ui", "workspace"],
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": true
+    },
+    "virtualWorkspaces": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ravenothere/rose-pine-symbols"
+  },
+  "activationEvents": ["onStartupFinished"],
+  "contributes": {
+    "iconThemes": [
+      {
+        "id": "rose-pine-symbols",
+        "label": "Rosé Pine Symbols",
+        "path": "./src/rose-pine-symbols-icon-theme.modified.json"
+      }
+    ],
+    "configuration": {
+      "type": "object",
+      "title": "Rosé Pine Symbols",
+      "properties": {
+        "rose-pine-symbols.folderStyle": {
+          "type": "string",
+          "default": "rose-pine",
+          "enum": ["rose-pine", "symbols"],
+          "enumDescriptions": [
+            "Rosé Pine arrow folder icons — explorer arrows are hidden",
+            "Symbols folder icons in Rosé Pine colors — explorer arrows are visible"
+          ],
+          "description": "Choose the folder icon style. A reload is required after changing this."
+        }
+      }
+    }
+  }
+}
