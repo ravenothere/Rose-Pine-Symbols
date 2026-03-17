@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/ravenothere/rose-pine-symbols/main/logo.png" width="140" />
 
-# Rosé Pine Symbols
+# [Rosé Pine Symbols](https://marketplace.visualstudio.com/items?itemName=ravenothere.rose-pine-symbols)
 
 Symbols' file type coverage, recolored with the Rosé Pine palette — with Rosé Pine's folder style built right in.
 
