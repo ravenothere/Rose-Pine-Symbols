@@ -2,12 +2,11 @@
   "name": "rose-pine-symbols",
   "displayName": "Rosé Pine Symbols",
   "description": "A file icon theme for VS Code using the Rosé Pine palette, combining Symbols' file type coverage with Rosé Pine's folder style.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "ravenothere",
   "author": {
     "name": "ravenothere"
   },
-  "preview": true,
   "license": "MIT",
   "icon": "logo.png",
   "main": "./src/extension.js",
