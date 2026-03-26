@@ -25,11 +25,11 @@ Available on:
 
 - **[Open VSX Registry](https://open-vsx.org/extension/ravenothere/rose-pine-symbols)**
 
-1 ⁝ Open Visual Studio Code.
+1 ⁝ Open VS Code.
 
 2 ⁝ Go to the Extensions view (Ctrl+Shift+X).
 
-3 ⁝ Search for Rosé Pine Symbols.
+3 ⁝ Search for `Rosé Pine Symbols`.
 
 4 ⁝ Click Install.
 
